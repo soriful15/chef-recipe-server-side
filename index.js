@@ -14,7 +14,8 @@ app.get('/chefCategories', (req, res) => {
     res.send(chefCategories)
 })
 
-
+/* https://chef-recipe-hunter-server-tawny.vercel.app/chefCategories */
+// https://www.thebangladeshikitchen.com/
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
