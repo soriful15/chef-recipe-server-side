@@ -16,13 +16,11 @@ app.get('/chefCategories', (req, res) => {
 
 app.get('/chefCategories/:id',(req,res)=>{
     const id=req.params.id
-    console.log(id)
+    // console.log(id)
     const selectedChefCategories=chefCategories.find(categories=>categories.id == id)
-    console.log(selectedChefCategories)
+    // console.log(selectedChefCategories)
     res.send(selectedChefCategories)
 })
-
-
 
 /* https://chef-recipe-hunter-server-soriful15.vercel.app/chefCategories */
 
